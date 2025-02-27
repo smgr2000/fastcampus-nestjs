@@ -30,7 +30,7 @@ $ git switch ch-1
 
 ## 도커
 
-### 설치 및 컨테이너 올리기
+### 설치 및 컨테이너 올리기 dd
 
 - https://www.docker.com/
 
