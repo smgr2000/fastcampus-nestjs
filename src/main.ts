@@ -30,7 +30,7 @@ async function bootstrap() {
   const stage = configService.get('STAGE');
 
   // Swagger
-  const SWAGGER_ENVS = ['local', 'dev'];
+  const SWAGGER_ENVS = ['local', 'dev', 'prod'];
   if (SWAGGER_ENVS.includes(stage)) {
     app.use(
       ['/docs', '/docs-json'],
